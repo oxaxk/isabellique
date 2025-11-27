@@ -155,8 +155,8 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
       
-      <div className="relative z-10 flex-1 flex items-center px-6 max-w-5xl mx-auto pb-24 md:pb-16 pt-32">
-        <div className="w-full text-center md:text-left">
+      <div className="relative z-10 flex-1 flex items-center justify-center px-4 sm:px-6 max-w-5xl mx-auto pb-24 md:pb-16 pt-32">
+        <div className="w-full max-w-xl md:max-w-none text-center md:text-left mx-auto md:mx-0">
           <div className="bg-black/35 md:bg-black/30 rounded-3xl px-6 py-10 md:px-10 md:py-12 shadow-[0_24px_60px_rgba(0,0,0,0.5)] border border-white/10">
             <p className="text-sm md:text-xs tracking-[0.35em] uppercase mb-4 text-[#F9EAE0]">
               Facials · Lashes · Liftings · Lips
