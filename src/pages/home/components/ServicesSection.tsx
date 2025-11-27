@@ -54,7 +54,7 @@ export default function ServicesSection() {
     },
     {
       icon: 'ri-star-line',
-      title: 'PMU & Kombibehandlungen',
+      title: 'PMU',
       description:
         'Permanent Make-up für Brows & Lips sowie Kombis aus Facials, Microneedling, Lashes & Lips – für ein rundes Gesamtergebnis.',
       image: '/images/services/pmu-combo.jpg'
