@@ -122,7 +122,7 @@ export default function ContactSection() {
                 style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 <i className="ri-calendar-line text-lg"></i>
-                Beautinda Bunchung
+                Beautinda Buchung
               </a>
             </div>
           </div>
