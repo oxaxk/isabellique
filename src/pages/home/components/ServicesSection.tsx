@@ -329,7 +329,7 @@ export default function ServicesSection() {
             className="text-[0.75rem] sm:text-sm md:text-base px-8 py-3.5 rounded-full bg-black/60 backdrop-blur-xl text-[#FDF7F2] border border-white/40 shadow-[0_16px_40px_rgba(0,0,0,0.45)] tracking-[0.22em] uppercase hover:bg-black/70 hover:shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
           >
             <i className="ri-calendar-line mr-3 text-2xl"></i>
-            Termin über Beautinda buchen
+            Beautinda Buchung
           </Button>
           <Button
             href="#contact"
@@ -337,7 +337,7 @@ export default function ServicesSection() {
             className="text-[0.75rem] sm:text-sm md:text-base px-8 py-3.5 rounded-full bg-black/60 backdrop-blur-xl text-[#FDF7F2] border border-white/40 shadow-[0_16px_40px_rgba(0,0,0,0.45)] tracking-[0.22em] uppercase hover:bg-black/70 hover:shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
           >
             <i className="ri-edit-line mr-3 text-2xl"></i>
-            Anfrage über Kontaktformular
+            Kontaktformular
           </Button>
         </div>
       </div>
