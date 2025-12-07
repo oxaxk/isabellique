@@ -52,7 +52,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden bg-gradient-to-b from-[#F3E2D4] via-[#FBF4EF] to-[#F5E8DC]"
+      className="relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-16 md:pt-32 md:pb-20">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
