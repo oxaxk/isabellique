@@ -47,15 +47,36 @@
     }
     </script>
 <script>
-  const pass = prompt("Passwort eingeben:");
-  if (pass !== "ISA2025") {
-    document.body.innerHTML = "";
-    alert("Falsches Passwort");
-  }
+  (function () {
+    const PASSWORD = "ISA2025";
+
+    function requestAccess() {
+      const entered = window.prompt("Passwort eingeben:");
+
+      if (entered === null) {
+        // Abgebrochen → Seite nicht laden
+        return;
+      }
+
+      if (entered === PASSWORD) {
+        // Korrektes Passwort → React-App laden
+        const script = document.createElement("script");
+        script.type = "module";
+        script.src = "/src/main.tsx";
+        document.body.appendChild(script);
+      } else {
+        alert("Falsches Passwort. Bitte erneut versuchen.");
+        requestAccess();
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", function () {
+      requestAccess();
+    });
+  })();
 </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
