@@ -68,8 +68,8 @@ export default function HeroSection() {
               className="text-3xl sm:text-4xl lg:text-[2.5rem] font-semibold leading-tight mb-5"
               style={{ fontFamily: 'Playfair Display, serif', color: '#2A1F1F' }}
             >
-              Lashes &amp; Lips Studio in Hanau
-              <span className="block">bei Frankfurt am Main.</span>
+              Lashes &amp; Lips Studio
+              <span className="block">Hanau - Frankfurt am Main.</span>
             </h1>
             <p
               className="text-base sm:text-lg leading-relaxed text-[#3A2A29]/85 max-w-xl mx-auto md:mx-0"
@@ -88,7 +88,7 @@ export default function HeroSection() {
                   className="text-[0.75rem] sm:text-sm md:text-base px-8 sm:px-9 py-3.5 rounded-full bg-black/75 backdrop-blur-xl text-[#FDF7F2] border border-white/40 shadow-[0_16px_40px_rgba(0,0,0,0.45)] tracking-[0.22em] uppercase hover:shadow-[0_20px_50px_rgba(0,0,0,0.6)] hover:bg-black/80"
                 >
                   <i className="ri-calendar-line mr-3 text-xl sm:text-2xl" />
-                  Termin über Beautinda buchen
+                  Beautinda Buchung
                 </Button>
               </div>
 
