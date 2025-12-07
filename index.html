@@ -46,37 +46,26 @@
       "priceRange": "€€€"
     }
     </script>
-<script>
-  (function () {
-    const PASSWORD = "ISA2025";
+    <script>
+      (function () {
+        const PASSWORD = "ISA2025";
 
-    function requestAccess() {
-      const entered = window.prompt("Passwort eingeben:");
+        window.addEventListener("load", function () {
+          const entered = window.prompt("Passwort eingeben:");
 
-      if (entered === null) {
-        // Abgebrochen → Seite nicht laden
-        return;
-      }
-
-      if (entered === PASSWORD) {
-        // Korrektes Passwort → React-App laden
-        const script = document.createElement("script");
-        script.type = "module";
-        script.src = "/src/main.tsx";
-        document.body.appendChild(script);
-      } else {
-        alert("Falsches Passwort. Bitte erneut versuchen.");
-        requestAccess();
-      }
-    }
-
-    window.addEventListener("DOMContentLoaded", function () {
-      requestAccess();
-    });
-  })();
-</script>
+          // Abbrechen oder falsches Passwort -> Inhalt weg
+          if (entered === null || entered !== PASSWORD) {
+            document.body.innerHTML = "";
+            document.title = "Zugriff verweigert";
+          }
+          // Bei korrektem Passwort passiert nichts weiter:
+          // Die React-App ist bereits normal geladen und bleibt sichtbar.
+        });
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
