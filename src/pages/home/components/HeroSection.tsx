@@ -69,7 +69,7 @@ export default function HeroSection() {
               style={{ fontFamily: 'Playfair Display, serif', color: '#2A1F1F' }}
             >
               Lashes &amp; Lips Studio
-              <span className="block">Hanau - Frankfurt am Main.</span>
+              <span className="block">In Hanau bei Frankfurt</span>
             </h1>
             <p
               className="text-base sm:text-lg leading-relaxed text-[#3A2A29]/85 max-w-xl mx-auto md:mx-0"
